@@ -1,0 +1,12 @@
+#ignore dependency folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+#ignore local environment variable files (Secrets)
+.env
+.env.local
+
+#ignore OS files
+.DS_Store
+Thumbs.db

@@ -13,7 +13,7 @@ const port = process.env.PORT || 4000;
 // function to connect to the database
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://mern-auth-pipeline-client.onrender.com']
 
 app.use(express.json());
 app.use(cookieParser());
